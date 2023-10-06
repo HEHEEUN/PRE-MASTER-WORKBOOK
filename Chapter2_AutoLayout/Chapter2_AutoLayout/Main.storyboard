@@ -144,9 +144,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3EG-7t-N90" userLabel="Search Bar View">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="170"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" text="찾는 맛집 이름이 뭐예요?" translatesAutoresizingMaskIntoConstraints="NO" id="Bfr-r1-zWa">
-                                        <rect key="frame" x="20" y="108" width="353" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <searchBar contentMode="redraw" text="찾는 맛집 이름이 뭐예요?" translatesAutoresizingMaskIntoConstraints="NO" id="Bfr-r1-zWa">
+                                        <rect key="frame" x="20" y="96" width="353" height="56"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <outlet property="delegate" destination="KpF-2T-0SL" id="zQ0-05-07H"/>
@@ -154,6 +153,11 @@
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" red="0.37220296260000002" green="0.7451326251" blue="0.73333615060000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="Bfr-r1-zWa" firstAttribute="leading" secondItem="3EG-7t-N90" secondAttribute="leading" constant="20" id="c4H-T8-SIj"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bfr-r1-zWa" secondAttribute="bottom" constant="18" id="fii-QJ-mEU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bfr-r1-zWa" secondAttribute="trailing" constant="20" id="gcl-j9-fqP"/>
+                                </constraints>
                             </view>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzX-ue-waR">
                                 <rect key="frame" x="0.0" y="769" width="393" height="49"/>
@@ -161,7 +165,7 @@
                                 <items>
                                     <tabBarItem title="검색" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="cog-83-ZYQ" userLabel="Search"/>
                                     <tabBarItem title="찜" image="heart" catalog="system" id="F3j-Ni-A5b" userLabel="Liked"/>
-                                    <tabBarItem title="배민" image="mintCircle" selectedImage="mintCircle" id="QBX-6C-cg4" userLabel="Home">
+                                    <tabBarItem title="배민" image="chapter1_circle2" selectedImage="mintCircle" id="QBX-6C-cg4" userLabel="Home">
                                         <color key="badgeColor" red="0.37220296260000002" green="0.7451326251" blue="0.73333615060000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-10"/>
                                     </tabBarItem>
@@ -177,7 +181,6 @@
                             <constraint firstItem="qbA-0v-lMv" firstAttribute="leading" secondItem="F0M-Dm-yEe" secondAttribute="leading" id="70q-ZT-WBv"/>
                             <constraint firstItem="GzX-ue-waR" firstAttribute="trailing" secondItem="F0M-Dm-yEe" secondAttribute="trailing" id="K1B-mo-jzb"/>
                             <constraint firstItem="qbA-0v-lMv" firstAttribute="trailing" secondItem="F0M-Dm-yEe" secondAttribute="trailing" id="MqN-XO-GBZ"/>
-                            <constraint firstItem="GzX-ue-waR" firstAttribute="top" secondItem="qbA-0v-lMv" secondAttribute="bottom" id="Q4T-2b-wgb"/>
                             <constraint firstItem="3EG-7t-N90" firstAttribute="top" secondItem="LhO-3b-Se5" secondAttribute="top" id="XuZ-Ot-iGt"/>
                             <constraint firstItem="3EG-7t-N90" firstAttribute="height" secondItem="LhO-3b-Se5" secondAttribute="height" multiplier="0.199531" id="cnO-xd-2D5"/>
                             <constraint firstItem="GzX-ue-waR" firstAttribute="leading" secondItem="F0M-Dm-yEe" secondAttribute="leading" id="eCT-OV-KW3"/>
@@ -197,6 +200,7 @@
         <image name="chapter1_button1" width="272" height="272"/>
         <image name="chapter1_button2" width="272" height="272"/>
         <image name="chapter1_button3" width="272" height="272"/>
+        <image name="chapter1_circle2" width="65" height="65"/>
         <image name="chapter1_main_banner" width="858" height="286"/>
         <image name="chapter1_miniBanner" width="862" height="168"/>
         <image name="chapter1_store" width="866" height="522"/>
