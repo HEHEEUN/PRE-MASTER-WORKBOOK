@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4ZK-I2-ysz">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--동네생활-->
+        <scene sceneID="iJB-Ly-DpX">
+            <objects>
+                <viewController id="Mkh-IM-GzV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Roh-Wr-HiV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="동네 생활" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFJ-5Y-azx">
+                                <rect key="frame" x="209" y="416" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBy-tY-vt5">
+                                <rect key="frame" x="263" y="699" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="3vC-Jz-3cL"/>
+                                    <constraint firstAttribute="height" constant="50" id="IKX-YO-h1c"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <menu key="menu" id="5c9-fj-Myx">
+                                    <children>
+                                        <command title="알바" id="iPp-rq-BNZ"/>
+                                        <command title="과외/클래스" id="LI2-C5-oYY"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="글쓰기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="0.80000000000000004"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="글쓰기">
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="1"/>
+                                    <backgroundConfiguration key="background" cornerRadius="23">
+                                        <color key="backgroundColor" red="1" green="0.43529411759999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q0R-uk-BSq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q0R-uk-BSq" firstAttribute="bottom" secondItem="LBy-tY-vt5" secondAttribute="bottom" constant="20" id="xBk-aw-MtP"/>
+                            <constraint firstItem="Q0R-uk-BSq" firstAttribute="trailing" secondItem="LBy-tY-vt5" secondAttribute="trailing" constant="20" id="zYy-SJ-Vvj"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="동네생활" image="doc.text" catalog="system" selectedImage="doc.text.fill" id="qaL-qz-QKL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gsn-HT-EwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="-20"/>
+        </scene>
+        <!--내 근처-->
+        <scene sceneID="pKl-2E-56B">
+            <objects>
+                <viewController id="5P9-c7-67g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L5g-nS-yqm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-Yc-q3g">
+                                <rect key="frame" x="263" y="699" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EfA-Ud-Ygx"/>
+                                    <constraint firstAttribute="width" constant="110" id="eMe-PW-Wax"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <menu key="menu" id="wHX-BJ-e8y">
+                                    <children>
+                                        <command title="알바" id="50Y-jA-yMj"/>
+                                        <command title="과외/클래스" id="FMt-D7-Ci3"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="글쓰기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="0.80000000000000004"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="글쓰기">
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="1"/>
+                                    <backgroundConfiguration key="background" cornerRadius="23">
+                                        <color key="backgroundColor" red="1" green="0.43529411759999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dOI-80-ycd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dOI-80-ycd" firstAttribute="bottom" secondItem="Yg8-Yc-q3g" secondAttribute="bottom" constant="20" id="NOX-Pl-KxU"/>
+                            <constraint firstItem="dOI-80-ycd" firstAttribute="trailing" secondItem="Yg8-Yc-q3g" secondAttribute="trailing" constant="20" id="Ypx-Qh-qzB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="내 근처" image="location" catalog="system" selectedImage="location.fill" id="vii-9C-TIO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eE-F3-M26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="-20"/>
+        </scene>
+        <!--채팅-->
+        <scene sceneID="cas-n1-zfl">
+            <objects>
+                <viewController id="Qie-Y6-zPC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pgT-YH-Vwg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HCK-E8-H1M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="채팅" image="message" catalog="system" selectedImage="message.fill" id="ANH-ky-I9A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ha7-RJ-wjW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2440" y="-20"/>
+        </scene>
+        <!--나의 당근-->
+        <scene sceneID="43Q-wp-YmB">
+            <objects>
+                <viewController id="NTg-2D-y8j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kI6-tw-OkU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eYx-Bh-hVq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="나의 당근" image="person" catalog="system" selectedImage="person.fill" id="16H-nz-cOL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="boc-ur-qXS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3218" y="-20"/>
+        </scene>
+        <!--홈-->
+        <scene sceneID="N8S-6V-mjh">
+            <objects>
+                <viewController id="onH-Nw-jnn" customClass="HomeViewController" customModule="Chapter3_TableView_CollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wVs-PM-TcA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VgA-Wd-AP3" userLabel="Home Table View">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDn-gH-YcW">
+                                <rect key="frame" x="263" y="699" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aIE-Ek-576"/>
+                                    <constraint firstAttribute="width" constant="110" id="ccr-Tz-BbG"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <menu key="menu" id="2XS-gz-8lB">
+                                    <children>
+                                        <command title="알바" id="PuS-eC-ktQ"/>
+                                        <command title="과외/클래스" id="RYJ-Kf-oH9"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="글쓰기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="0.80000000000000004"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="글쓰기">
+                                    <imageReference key="image" image="plus" catalog="system" variableValue="1"/>
+                                    <backgroundConfiguration key="background" cornerRadius="23">
+                                        <color key="backgroundColor" red="1" green="0.43529411759999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whf-BE-cbb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                                <items>
+                                    <navigationItem id="Uuk-vl-1JW">
+                                        <barButtonItem key="leftBarButtonItem" title="심곡동" id="tyg-7i-AZu"/>
+                                        <rightBarButtonItems>
+                                            <barButtonItem title="Item" id="evD-KY-Fez">
+                                                <imageReference key="image" image="bell" catalog="system" symbolScale="medium"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" id="EVH-QT-2dz">
+                                                <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="medium"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Item" id="Mft-OI-FnF">
+                                                <imageReference key="image" image="line.3.horizontal" catalog="system" symbolScale="medium"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b4H-TF-jVP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b4H-TF-jVP" firstAttribute="trailing" secondItem="VgA-Wd-AP3" secondAttribute="trailing" id="5Bc-Vq-HtS"/>
+                            <constraint firstItem="b4H-TF-jVP" firstAttribute="bottom" secondItem="WDn-gH-YcW" secondAttribute="bottom" constant="20" id="6BW-sS-OAh"/>
+                            <constraint firstItem="b4H-TF-jVP" firstAttribute="trailing" secondItem="WDn-gH-YcW" secondAttribute="trailing" constant="20" id="DKJ-K7-Ghv"/>
+                            <constraint firstItem="whf-BE-cbb" firstAttribute="leading" secondItem="b4H-TF-jVP" secondAttribute="leading" id="Jwh-BJ-hkR"/>
+                            <constraint firstItem="VgA-Wd-AP3" firstAttribute="bottom" secondItem="b4H-TF-jVP" secondAttribute="bottom" id="OOe-7z-Fey"/>
+                            <constraint firstItem="VgA-Wd-AP3" firstAttribute="leading" secondItem="b4H-TF-jVP" secondAttribute="leading" id="OUj-YJ-DFs"/>
+                            <constraint firstItem="whf-BE-cbb" firstAttribute="top" secondItem="b4H-TF-jVP" secondAttribute="top" id="edH-3R-3Bi"/>
+                            <constraint firstItem="VgA-Wd-AP3" firstAttribute="top" secondItem="whf-BE-cbb" secondAttribute="bottom" id="fvY-77-bly"/>
+                            <constraint firstItem="whf-BE-cbb" firstAttribute="trailing" secondItem="b4H-TF-jVP" secondAttribute="trailing" id="yWx-vW-Nx2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" selectedImage="house.fill" id="GCv-oX-9p0"/>
+                    <connections>
+                        <outlet property="homeTableView" destination="VgA-Wd-AP3" id="xZb-RO-2se"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKf-GM-VEk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264.8854961832061" y="-20.422535211267608"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fF8-el-xEg">
+            <objects>
+                <tabBarController id="4ZK-I2-ysz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cyR-1L-ySn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="onH-Nw-jnn" kind="relationship" relationship="viewControllers" id="exf-qx-d0j"/>
+                        <segue destination="Mkh-IM-GzV" kind="relationship" relationship="viewControllers" id="jHS-T6-Wme"/>
+                        <segue destination="5P9-c7-67g" kind="relationship" relationship="viewControllers" id="HAb-2k-4he"/>
+                        <segue destination="Qie-Y6-zPC" kind="relationship" relationship="viewControllers" id="9W2-SO-YDE"/>
+                        <segue destination="NTg-2D-y8j" kind="relationship" relationship="viewControllers" id="tbv-Hp-WdG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jaQ-1z-oCt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="-1013"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="125" height="128"/>
+        <image name="doc.text" catalog="system" width="115" height="128"/>
+        <image name="doc.text.fill" catalog="system" width="115" height="128"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
+        <image name="location" catalog="system" width="128" height="119"/>
+        <image name="location.fill" catalog="system" width="128" height="119"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="message" catalog="system" width="128" height="116"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
