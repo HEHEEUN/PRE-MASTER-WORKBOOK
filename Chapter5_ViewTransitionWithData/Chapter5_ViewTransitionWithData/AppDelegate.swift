@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Chapter4_ScrollView
+//  Chapter5_ViewTransitionWithData
 //
-//  Created by 김희은 on 11/2/23.
+//  Created by 김희은 on 11/13/23.
 //
 
 import UIKit

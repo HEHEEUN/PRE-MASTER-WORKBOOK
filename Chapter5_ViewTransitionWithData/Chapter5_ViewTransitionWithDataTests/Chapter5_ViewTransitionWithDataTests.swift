@@ -1,14 +1,14 @@
 //
-//  Chapter4_ScrollViewTests.swift
-//  Chapter4_ScrollViewTests
+//  Chapter5_ViewTransitionWithDataTests.swift
+//  Chapter5_ViewTransitionWithDataTests
 //
-//  Created by 김희은 on 11/2/23.
+//  Created by 김희은 on 11/13/23.
 //
 
 import XCTest
-@testable import Chapter4_ScrollView
+@testable import Chapter5_ViewTransitionWithData
 
-final class Chapter4_ScrollViewTests: XCTestCase {
+final class Chapter5_ViewTransitionWithDataTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

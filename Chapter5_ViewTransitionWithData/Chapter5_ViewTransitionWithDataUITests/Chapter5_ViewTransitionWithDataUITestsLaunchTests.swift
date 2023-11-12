@@ -1,13 +1,13 @@
 //
-//  Chapter4_ScrollViewUITestsLaunchTests.swift
-//  Chapter4_ScrollViewUITests
+//  Chapter5_ViewTransitionWithDataUITestsLaunchTests.swift
+//  Chapter5_ViewTransitionWithDataUITests
 //
-//  Created by 김희은 on 11/2/23.
+//  Created by 김희은 on 11/13/23.
 //
 
 import XCTest
 
-final class Chapter4_ScrollViewUITestsLaunchTests: XCTestCase {
+final class Chapter5_ViewTransitionWithDataUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
